@@ -16,7 +16,9 @@
 - [Configure OhMyZsh Theme](https://github.com/ohmyzsh/ohmyzsh/wiki/Themes#half-life)
 - [Install Homebrew](https://brew.sh/)
 
-#### 3. PYTHON ENVIRONMENT
+#### 3. DEVELOPMENT ENVIRONMENT
+
+###### PYTHON
 
 **Install pyenv**
 
@@ -34,6 +36,23 @@ export PYENV_ROOT="/usr/local/var/pyenv"
 # To enable shims and autocompletion
 if which pyenv > /dev/null; then eval "$(pyenv init -)"; fi
 ```
+
+###### NODE & NPM
+
+You need to have the following installed:
+- [yarn](https://classic.yarnpkg.com/en/docs/install)
+- [nvm](https://github.com/nvm-sh/nvm#installing-and-updating) 
+- [direnv](https://direnv.net/)
+
+**Prettier**
+
+Follow the links IDE to format on save using Prettier:
+
+- [VSCode](https://prettier.io/docs/en/editors.html#visual-studio-code)
+- [WebStorm](https://prettier.io/docs/en/webstorm.html#running-prettier-on-save-using-file-watcher)
+- [Emacs](https://prettier.io/docs/en/editors.html#emacs)
+- [Vim](https://prettier.io/docs/en/editors.html#vim)
+- [Others](https://prettier.io/docs/en/editors.html)
 
 #### 4. GIT
 
