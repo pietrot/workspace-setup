@@ -11,10 +11,11 @@
 
 #### 2. CLI
 
-- [Install iTerm](https://iterm2.com/)
-- [Install OhMyZsh](https://github.com/ohmyzsh/ohmyzsh)
-- [Configure OhMyZsh Theme](https://github.com/ohmyzsh/ohmyzsh/wiki/Themes#half-life)
-- [Install Homebrew](https://brew.sh/)
+- Terminal, [Install iTerm](https://iterm2.com/)
+- Zsh config framework, [Install OhMyZsh](https://github.com/ohmyzsh/ohmyzsh)
+- Preferred theme, [Configure OhMyZsh Theme](https://github.com/ohmyzsh/ohmyzsh/wiki/Themes#half-life)
+- MacOS package manager, [Install Homebrew](https://brew.sh/)
+- Load/Unload directory-level environment variables, [Install direnv](https://direnv.net/)
 
 #### 3. DEVELOPMENT ENVIRONMENT
 
@@ -41,17 +42,23 @@ if which pyenv > /dev/null; then eval "$(pyenv init -)"; fi
 
 **Install**:
 
-- [yarn](https://classic.yarnpkg.com/en/docs/install)
-- [nvm](https://github.com/nvm-sh/nvm#installing-and-updating) 
-- [direnv](https://direnv.net/)
+- Super fast JS package management, [Install yarn](https://classic.yarnpkg.com/en/docs/install)
+- Node version management, [Install nvm](https://github.com/nvm-sh/nvm#installing-and-updating) 
 
 ```
+# yarn ----
 npm install --global yarn
+
+# nvm ----
 brew update && brew install nvm
 echo 'export NVM_DIR=~/.nvm' >> /Users/<username>/.zshrc
 echo 'source $(brew --prefix nvm)/nvm.sh' >> /Users/<username>/.zshrc
 source ~/.zshrc
 which nvm
+nvm use
+
+# direnv ----
+brew update && brew install direnv
 ```
 
 **Prettier**
