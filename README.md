@@ -84,6 +84,12 @@ echo '' >> /Users/<username>/.zshrc
 source ~/.zshrc
 ```
 
+#### 3.N Databases
+
+**Install**:
+
+- [Install DBeaver](https://dbeaver.io/download/)
+
 ### 4. GIT
 
 https://docs.github.com/en/free-pro-team@latest/github/authenticating-to-github/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent
