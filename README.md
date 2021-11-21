@@ -51,8 +51,10 @@ npm install --global yarn
 
 # nvm ----
 brew update && brew install nvm
+echo '# nvm ----' >> /Users/<username>/.zshrc
 echo 'export NVM_DIR=~/.nvm' >> /Users/<username>/.zshrc
 echo 'source $(brew --prefix nvm)/nvm.sh' >> /Users/<username>/.zshrc
+echo '' >> /Users/<username>/.zshrc
 source ~/.zshrc
 which nvm
 nvm use
@@ -70,6 +72,16 @@ Follow the links IDE to format on save using Prettier:
 - [Emacs](https://prettier.io/docs/en/editors.html#emacs)
 - [Vim](https://prettier.io/docs/en/editors.html#vim)
 - [Others](https://prettier.io/docs/en/editors.html)
+
+#### 3.3 Golang
+
+```
+brew update && brew install golang golang-migrate go-bindata golang-rice
+echo '# golang ----' >> /Users/<username>/.zshrc
+echo 'export GOPATH=$HOME/go' >> /Users/<username>/.zshrc
+echo 'export PATH=$GOPATH/bin:$PATH' >> /Users/<username>/.zshrc
+echo '' >> /Users/<username>/.zshrc
+```
 
 ### 4. GIT
 
