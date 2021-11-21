@@ -76,11 +76,12 @@ Follow the links IDE to format on save using Prettier:
 #### 3.3 Golang
 
 ```
-brew update && brew install golang golang-migrate go-bindata golang-rice
+brew update && brew install golang golang-migrate go-bindata
 echo '# golang ----' >> /Users/<username>/.zshrc
 echo 'export GOPATH=$HOME/go' >> /Users/<username>/.zshrc
 echo 'export PATH=$GOPATH/bin:$PATH' >> /Users/<username>/.zshrc
 echo '' >> /Users/<username>/.zshrc
+source ~/.zshrc
 ```
 
 ### 4. GIT
