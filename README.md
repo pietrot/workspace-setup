@@ -39,10 +39,20 @@ if which pyenv > /dev/null; then eval "$(pyenv init -)"; fi
 
 ###### NODE & NPM
 
-You need to have the following installed:
+**Install**:
+
 - [yarn](https://classic.yarnpkg.com/en/docs/install)
 - [nvm](https://github.com/nvm-sh/nvm#installing-and-updating) 
 - [direnv](https://direnv.net/)
+
+```
+npm install --global yarn
+brew update && brew install nvm
+echo 'export NVM_DIR=~/.nvm' >> /Users/<username>/.zshrc
+echo 'source $(brew --prefix nvm)/nvm.sh' >> /Users/<username>/.zshrc
+source ~/.zshrc
+which nvm
+```
 
 **Prettier**
 
