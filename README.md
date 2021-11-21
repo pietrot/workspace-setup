@@ -2,14 +2,14 @@
 
 ## MACBOOK
 
-#### 1. BASICS
+### 1. BASICS
 
 - [Install Chrome](https://www.google.com/intl/en_ca/chrome/)
 - [Install Zoom](https://zoom.us/)
 - [Install 1Password](https://1password.com/downloads/mac/) 
   > Store the emergency kit saftely (ie. Google Drive)
 
-#### 2. CLI
+### 2. CLI
 
 - Terminal, [Install iTerm](https://iterm2.com/)
 - Zsh config framework, [Install OhMyZsh](https://github.com/ohmyzsh/ohmyzsh)
@@ -17,9 +17,9 @@
 - MacOS package manager, [Install Homebrew](https://brew.sh/)
 - Load/Unload directory-level environment variables, [Install direnv](https://direnv.net/)
 
-#### 3. DEVELOPMENT ENVIRONMENT
+### 3. DEVELOPMENT ENVIRONMENT
 
-###### PYTHON
+#### 3.1 PYTHON
 
 **Install pyenv**
 
@@ -38,7 +38,7 @@ export PYENV_ROOT="/usr/local/var/pyenv"
 if which pyenv > /dev/null; then eval "$(pyenv init -)"; fi
 ```
 
-###### NODE & NPM
+#### 3.2 NODE & NPM
 
 **Install**:
 
@@ -71,7 +71,7 @@ Follow the links IDE to format on save using Prettier:
 - [Vim](https://prettier.io/docs/en/editors.html#vim)
 - [Others](https://prettier.io/docs/en/editors.html)
 
-#### 4. GIT
+### 4. GIT
 
 https://docs.github.com/en/free-pro-team@latest/github/authenticating-to-github/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent
 
@@ -110,7 +110,7 @@ $ brew install gnupg
 Follow instructions here: https://docs.github.com/en/free-pro-team@latest/github/authenticating-to-github/generating-a-new-gpg-key
 
 
-#### 5. MISC
+### 5. MISC
 
 ```
 $ brew install wget curl tig htop
