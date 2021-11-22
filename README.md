@@ -131,8 +131,21 @@ $ brew install gnupg
 
 Follow instructions here: https://docs.github.com/en/free-pro-team@latest/github/authenticating-to-github/generating-a-new-gpg-key
 
+### 5. CLOUD PROVIDERS
 
-### 5. MISC
+#### Google Cloud Platform (GCP)
+
+```
+brew cask install google-cloud-sdk
+
+# interact with GCP via gcloud
+gcloud auth login
+# OR
+# code to interact with GCP via SDK
+gcloud auth application-default login
+```
+
+### 6. MISC
 
 ```
 $ brew install wget curl tig htop
