@@ -46,10 +46,10 @@ if which pyenv > /dev/null; then eval "$(pyenv init -)"; fi
 - Node version management, [Install nvm](https://github.com/nvm-sh/nvm#installing-and-updating) 
 
 ```
-# yarn ----
+# yarn
 npm install --global yarn
 
-# nvm ----
+# nvm
 brew update && brew install nvm
 echo '# nvm ----' >> /Users/<username>/.zshrc
 echo 'export NVM_DIR=~/.nvm' >> /Users/<username>/.zshrc
@@ -59,8 +59,11 @@ source ~/.zshrc
 which nvm
 nvm use
 
-# direnv ----
+# direnv
 brew update && brew install direnv
+echo '# direnv ----' >> /Users/<username>/.zshrc
+echo 'eval "$(direnv hook zsh)"' >> /Users/<username>/.zshrc
+echo '' >> /Users/<username>/.zshrc
 ```
 
 **Prettier**
