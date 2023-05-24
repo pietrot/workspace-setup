@@ -136,7 +136,7 @@ Follow instructions here: https://docs.github.com/en/free-pro-team@latest/github
 #### Google Cloud Platform (GCP)
 
 ```
-brew cask install google-cloud-sdk
+brew install --cask google-cloud-sdk
 
 # interact with GCP via gcloud
 gcloud auth login
