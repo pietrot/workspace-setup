@@ -131,6 +131,13 @@ $ brew install gnupg
 
 Follow instructions here: https://docs.github.com/en/free-pro-team@latest/github/authenticating-to-github/generating-a-new-gpg-key
 
+#### Git branch print to CLI
+Since the release of Git 2.16, the `git branch` command runs as paged executable instead of printing to the console. To revert back, update your ~/.gitconfig as follows:
+```
+$ git config --global pager.branch false
+```
+_--Credit to https://stackoverflow.com/a/48370253_
+
 ### 5. CLOUD PROVIDERS
 
 #### Google Cloud Platform (GCP)
