@@ -16,6 +16,7 @@
 - Preferred theme, [Configure OhMyZsh Theme](https://github.com/ohmyzsh/ohmyzsh/wiki/Themes#half-life)
 - MacOS package manager, [Install Homebrew](https://brew.sh/)
 - Load/Unload directory-level environment variables, [Install direnv](https://direnv.net/)
+- Put localhost on the internet using ingress-as-a-service [ngrok](https://ngrok.com/)
 
 ### 3. DEVELOPMENT ENVIRONMENT
 
