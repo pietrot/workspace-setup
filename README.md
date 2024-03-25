@@ -144,7 +144,7 @@ _--Credit to https://stackoverflow.com/a/48370253_
 #### Google Cloud Platform (GCP)
 
 ```
-brew cask install google-cloud-sdk
+brew install --cask google-cloud-sdk
 
 # interact with GCP via gcloud
 gcloud auth login
